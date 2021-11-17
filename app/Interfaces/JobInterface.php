@@ -3,9 +3,12 @@ namespace App\Interfaces;
 
 interface JobInterface
 {
-    public function createJob(array $data);
+    public function createJob($data);
+    public function createJobType($data);
+    public function applyJob($data);
+    public function allApplicants();
+    public function allActiveJobs();
     public function viewJob($job_id);
-    public function updateJob($job_id,array $data);
-    public function deactivateJob($job_id);
-    public function activateJob($job_id);
+    public function changeStatus($job_slug,$status);
+    public function updateJob($data);
 }

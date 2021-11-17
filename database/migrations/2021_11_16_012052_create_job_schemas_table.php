@@ -20,6 +20,7 @@ class CreateJobSchemasTable extends Migration
             $table->integer('job_types_id');
             $table->string('thumbnail')->nullable();
             $table->string('slug')->nullable();
+            $table->enum('status',['active','inactive'])->default('active');
             $table->timestamps();
         });
     }
