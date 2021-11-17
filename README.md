@@ -18,6 +18,9 @@ Or just import the SQL file instead of database migration.
 
 Admin panel's SCREENSHOTs are available also in Screenshots folder.
 
+ADMIN CREDENTIAL:
+EMAIL: admin@live.com
+PASSWORD: p@$$word
 
 
 Sinecerely,
